@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>私のウェブページ</title>
+    <title>中高生Podcastまとめサイト</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -34,21 +34,46 @@
         .button:hover {
             background-color: #0056b3;
         }
+        .podcast-list {
+            list-style: none;
+            padding: 0;
+        }
+        .podcast-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
     </style>
 </head>
 <body>
-    <h1>ようこそ！</h1>
+    <h1>中高生Podcastまとめ</h1>
     <div class="container">
-        <h2>このページについて</h2>
-        <p>これは私の最初のウェブページです。HTMLとCSSを使って作成しました。</p>
-        <p>このページでは以下のことを学びます：</p>
-        <ul>
-            <li>HTMLの基本構造</li>
-            <li>CSSによるスタイリング</li>
-            <li>レスポンシブデザイン</li>
+        <h2>おすすめPodcast</h2>
+        <ul class="podcast-list">
+            <li class="podcast-item">
+                <a href="https://example.com/podcast1">中学生のための勉強法ラジオ</a>
+                <p>毎週月曜日更新！効率的な勉強方法を紹介します。</p>
+            </li>
+            <li class="podcast-item">
+                <a href="https://example.com/podcast2">高校生のための進路相談室</a>
+                <p>進路に悩む高校生必聴！先輩たちの体験談を紹介。</p>
+            </li>
+            <li class="podcast-item">
+                <a href="https://example.com/podcast3">中高生のための時事ニュース解説</a>
+                <p>最新のニュースをわかりやすく解説します。</p>
+            </li>
         </ul>
     </div>
-    <a href="#" class="button">詳細を見る</a>
+    <div class="container">
+        <h2>カテゴリー別</h2>
+        <ul>
+            <li><a href="#study">勉強法</a></li>
+            <li><a href="#career">進路・キャリア</a></li>
+            <li><a href="#news">時事ニュース</a></li>
+            <li><a href="#life">学校生活</a></li>
+        </ul>
+    </div>
+    <a href="https://example.com/subscribe" class="button">Podcastを購読する</a>
 </body>
 </html>
 
